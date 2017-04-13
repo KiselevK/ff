@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class ForIs: Base
+    interface IData
     {
-        public int ForTestIs;
+        void SetData(string n, int s);
     }
 }

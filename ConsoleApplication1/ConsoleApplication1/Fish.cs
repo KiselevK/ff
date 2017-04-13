@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class ForIs: Base
+    class Fish:Animal
     {
-        public int ForTestIs;
+        public override string ShowData()
+        {
+            return "It's fish\n"+"Name "+ name+ "\nSize "+ ShowSize ;
+        }
     }
 }

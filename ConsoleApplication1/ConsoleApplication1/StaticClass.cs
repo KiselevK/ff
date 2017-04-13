@@ -6,35 +6,29 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    static class StaticClass
+    internal static class StaticClass
     {
-        private static int a;
-        private static int i;
+        private static int _a;
+        private static int _i;
 
-        public static int I
-        {
-            get { return i; }
-        }
+        public static int I => _i;
 
-        public static int A
-        {
-            get { return a; }
-        }
+        public static int A => _a;
 
         public static void Method(int b)
         {
-            a += b;
+            _a += b;
         }
         public static void MetForRef(ref int ii)
         {
-            i = ii * ii;
-            ii += i;
-            i = (int)(i - (ii * 0.5));
+            _i = ii * ii;
+            ii += _i;
+            _i = (int)(_i - (ii * 0.5));
         }
         public static void MetForOut(out int io)
         {
 
-            io = i;
+            io = _i;
         }
     }
 }

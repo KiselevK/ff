@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class ForIs: Base
+    interface IDescription:IData
     {
-        public int ForTestIs;
+        
+        string ShowData();
     }
 }

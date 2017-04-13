@@ -46,7 +46,16 @@
     <Compile Include="Anton.cs" />
     <Compile Include="ArraysClass.cs" />
     <Compile Include="Base.cs" />
+    <Compile Include="Animal.cs" />
+    <Compile Include="Dog.cs" />
+    <Compile Include="DoWhile.cs" />
+    <Compile Include="Fish.cs" />
+    <Compile Include="IData.cs" />
+    <Compile Include="IDescription.cs" />
     <Compile Include="ForIs.cs" />
+    <Compile Include="JustWhile.cs" />
+    <Compile Include="Man.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StaticClass.cs" />
