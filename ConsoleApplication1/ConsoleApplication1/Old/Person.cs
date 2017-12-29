@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-   abstract class Person
+   abstract class Person:IData
    {
        private  string name;
       private int age;
@@ -25,6 +25,10 @@ namespace ConsoleApplication1
 
         public abstract string ShowData();
 
+       public void SetData(string n, int s)
+       {
+           throw new NotImplementedException();
+       }
    }
 
 }

@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ConsoleApplication1</RootNamespace>
     <AssemblyName>ConsoleApplication1</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,9 +33,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ValueTuple, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.3.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,26 +50,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Anton.cs" />
-    <Compile Include="ArraysClass.cs" />
-    <Compile Include="Base.cs" />
-    <Compile Include="Animal.cs" />
-    <Compile Include="Dog.cs" />
-    <Compile Include="DoWhile.cs" />
-    <Compile Include="Fish.cs" />
-    <Compile Include="IData.cs" />
-    <Compile Include="IDescription.cs" />
-    <Compile Include="ForIs.cs" />
-    <Compile Include="JustWhile.cs" />
-    <Compile Include="Man.cs" />
-    <Compile Include="Person.cs" />
+    <Compile Include="New\ClassesGame.cs" />
+    <Compile Include="New\ItsAbstractClass.cs" />
+    <Compile Include="New\RefClass.cs" />
+    <Compile Include="New\ForReferenceAndValueTypes.cs" />
+    <Compile Include="New\TestClass12l28l2017.cs" />
+    <Compile Include="New\Tuples.cs" />
+    <Compile Include="OldTestCode.cs" />
+    <Compile Include="Old\Anton.cs" />
+    <Compile Include="Old\ArraysClass.cs" />
+    <Compile Include="Old\Base.cs" />
+    <Compile Include="Old\Animal.cs" />
+    <Compile Include="Old\BasicOld.cs" />
+    <Compile Include="Old\Dog.cs" />
+    <Compile Include="Old\DoWhile.cs" />
+    <Compile Include="Old\Fish.cs" />
+    <Compile Include="Old\ForDelegate.cs" />
+    <Compile Include="Old\ForEvent.cs" />
+    <Compile Include="Old\IData.cs" />
+    <Compile Include="Old\IDescription.cs" />
+    <Compile Include="Old\ForIs.cs" />
+    <Compile Include="Old\JustWhile.cs" />
+    <Compile Include="Old\Man.cs" />
+    <Compile Include="Old\Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StaticClass.cs" />
+    <Compile Include="Old\SortClass.cs" />
+    <Compile Include="Old\StaticClass.cs" />
+    <Compile Include="Old\UseParams.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

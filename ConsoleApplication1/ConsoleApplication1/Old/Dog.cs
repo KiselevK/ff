@@ -10,7 +10,7 @@ namespace ConsoleApplication1
     {
         
     
-      
+    
 
         public void SetData(string n, int s)
         {

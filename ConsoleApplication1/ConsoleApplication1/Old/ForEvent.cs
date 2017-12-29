@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Base
+    public delegate void PriceForItem(int i); 
+    class ForEvent
     {
     }
 }
