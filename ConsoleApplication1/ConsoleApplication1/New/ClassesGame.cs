@@ -19,16 +19,17 @@ namespace ConsoleApplication1.New
 
             A obj3 = new B();
             obj3.Foo();
+            
 
             C obj4 = new C();
             obj4.Foo();
             //C obj5 = new A();
-
+            
             A obj6 = new C();
             obj6.Foo();
             B obj7 = new D();
             obj7.Foo();
-
+             
             //C obj = new B;
         }
     }

@@ -50,11 +50,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="New\Account.cs" />
+    <Compile Include="New\ChangeColor.cs" />
+    <Compile Include="New\ClassCounter.cs" />
     <Compile Include="New\ClassesGame.cs" />
+    <Compile Include="New\Colors.cs" />
+    <Compile Include="New\Handler2.cs" />
+    <Compile Include="New\Handler1.cs" />
     <Compile Include="New\ItsAbstractClass.cs" />
+    <Compile Include="New\Lambda.cs" />
+    <Compile Include="New\MySortClass.cs" />
+    <Compile Include="New\Numbers.cs" />
     <Compile Include="New\RefClass.cs" />
     <Compile Include="New\ForReferenceAndValueTypes.cs" />
     <Compile Include="New\TestClass12l28l2017.cs" />
+    <Compile Include="New\TestCollections.cs" />
+    <Compile Include="New\TestDel1l18l2018.cs" />
     <Compile Include="New\Tuples.cs" />
     <Compile Include="OldTestCode.cs" />
     <Compile Include="Old\Anton.cs" />

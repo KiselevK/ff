@@ -25,6 +25,7 @@ namespace ConsoleApplication1
             {
                 for (int j = i + 1; j < nums.Length; j++)
                 {
+                    Console.WriteLine($"{i} {j}");
                     if (nums[i] > nums[j])
                     {
                         temp = nums[i];
