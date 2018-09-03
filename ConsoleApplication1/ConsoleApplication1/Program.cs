@@ -18,7 +18,7 @@ namespace ConsoleApplication1
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-          
+
 
 
 
@@ -29,7 +29,7 @@ namespace ConsoleApplication1
 
 
             //my list class
-           // WorkWithNumbers.Show();
+            // WorkWithNumbers.Show();
 
             //Collections 
             // TestCollections.ShowTestColection();
@@ -40,7 +40,7 @@ namespace ConsoleApplication1
 
 
             //lambda
-            //Lambda.ShowLambdas();
+            Lambda.ShowLambdas();
 
             //events
             //UseEvent();

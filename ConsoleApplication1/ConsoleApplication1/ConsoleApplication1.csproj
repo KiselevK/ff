@@ -63,7 +63,6 @@
     <Compile Include="New\TestClass12l28l2017.cs" />
     <Compile Include="New\TestCollections.cs" />
     <Compile Include="New\TestDel1l18l2018.cs" />
-    <Compile Include="New\Tuples.cs" />
     <Compile Include="OldTestCode.cs" />
     <Compile Include="Old\Anton.cs" />
     <Compile Include="Old\ArraysClass.cs" />

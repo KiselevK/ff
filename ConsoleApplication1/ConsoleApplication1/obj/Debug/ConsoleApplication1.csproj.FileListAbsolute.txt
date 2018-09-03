@@ -12,3 +12,10 @@ F:\my\ff\ff\ConsoleApplication1\ConsoleApplication1\bin\Debug\System.ValueTuple.
 F:\my\ff\ff\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
 F:\my\ff\ff\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
 F:\my\ff\ff\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+G:\Git\ff\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+G:\Git\ff\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+G:\Git\ff\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+G:\Git\ff\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojAssemblyReference.cache
+G:\Git\ff\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.CoreCompileInputs.cache
+G:\Git\ff\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+G:\Git\ff\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
