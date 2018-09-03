@@ -43,7 +43,7 @@ namespace ConsoleApplication1
             Lambda.ShowLambdas();
 
             //events
-            //UseEvent();
+            UseEvent();
 
             //Delegates //test1.24.2018
             //SetColor();
